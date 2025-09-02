@@ -10,27 +10,22 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
-            /* warna luar untuk kontras */
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        /* Container full layar dengan ujung bundar */
         .container {
             width: 100%;
             height: 100%;
             background-color: #fff;
             border-radius: 20px;
-            /* sudut bundar luar */
             overflow: hidden;
-            /* agar isi tidak keluar dari bundaran */
             display: flex;
             flex-direction: column;
         }
 
-        /* Navbar */
         .navbar {
             background-color: #007BFF;
             overflow: hidden;
@@ -57,7 +52,6 @@
             border-radius: 6px;
         }
 
-        /* Hero */
         .hero {
             text-align: center;
             background-color: #e6f2ff;
@@ -76,10 +70,8 @@
             margin-top: 10px;
         }
 
-        /* Konten */
         .content {
             flex: 1;
-            /* isi sisa tinggi layar */
             padding: 40px 20px;
             background-color: #f9f9f9;
         }
@@ -100,7 +92,6 @@
 <body>
 
     <div class="container">
-        <!-- Navbar -->
         <div class="navbar">
             <h1>Web Saya</h1>
             <a href="#">Kontak</a>
@@ -109,19 +100,16 @@
             <a href="#">Beranda</a>
         </div>
 
-        <!-- Header -->
         <div class="hero">
             <h2>Selamat Datang di Website Saya</h2>
             <p>Ini adalah halaman web dengan navigasi menu di atas.</p>
         </div>
 
-        <!-- Konten -->
         <div class="content">
             <h3>Konten Utama</h3>
             <p>
                 Ini adalah contoh konten utama dari halaman web. Anda bisa menambahkan teks, gambar,
-                atau elemen lainnya di sini. Dengan desain ini, website memenuhi layar penuh tapi
-                tetap punya sudut bundar yang elegan.
+                atau elemen lainnya di sini.
             </p>
         </div>
     </div>
